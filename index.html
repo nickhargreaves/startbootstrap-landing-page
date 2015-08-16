@@ -9,13 +9,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Landing Page - Start Bootstrap Theme</title>
+    <title>Citizen Reporter</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -43,7 +44,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">Start Bootstrap</a>
+                <a class="navbar-brand topnav" href="#">Citizen Reporter</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -52,10 +53,21 @@
                         <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a href="#features">Features</a>
+                    </li>
+
+                    <li>
+                        <a href="#demo">Live Demo</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#use_cases">Use Cases</a>
+                    </li>
+
+                    <li>
+                        <a href="#dashboard">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="#partners">Partners</a>
                     </li>
                 </ul>
             </div>
@@ -73,18 +85,18 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>Landing Page</h1>
-                        <h3>A Template by Start Bootstrap</h3>
+                        <h1>CitizenReporter</h1>
+                        <h3>Simple, Secure, Mobile Reporting</h3>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                                <a href="#demo" class="btn btn-default btn-lg"><i class="fa fa-mobile fa-fw"></i> <span class="network-name">Live Demo</span></a>
                             </li>
                             <li>
-                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                                <a href="https://github.com/CodeForAfrica/WordPress-Android" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                             </li>
                             <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-play fa-fw"></i> <span class="network-name">Download</span></a>
                             </li>
                         </ul>
                     </div>
@@ -99,19 +111,23 @@
 
     <!-- Page Content -->
 
-	<a  name="services"></a>
+	<a  name="features"></a>
     <div class="content-section-a">
-
+        <div class="col-lg-12">
+            <h2 class="section_header">Features</h2>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
-                    <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+                    <h2 class="section-heading">Assignments</h2>
+                    <p class="lead">
+                        CitizenReporter allows news rooms to create location based assignments for their journalists and to citizens.
+                    </p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/ipad.png" alt="">
+                    <img class="img-responsive" src="img/assignments.png" alt="">
                 </div>
             </div>
 
@@ -121,6 +137,8 @@
     </div>
     <!-- /.content-section-a -->
 
+
+
     <div class="content-section-b">
 
         <div class="container">
@@ -129,11 +147,11 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+                    <h2 class="section-heading">Secure reporting</h2>
+                    <p class="lead">By encrypting captured media securing the communication to the servers, reporters need not worry about their content falling into the wrong hands.</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/dog.png" alt="">
+                    <img class="img-responsive" src="img/security.png" alt="">
                 </div>
             </div>
 
@@ -151,11 +169,13 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+                    <h2 class="section-heading">Lessons</h2>
+                    <p class="lead">
+                        Having a camera enabled phone is not enough to create awesome content. CitizenReporter will help you polish your journalism skills using the inbuilt lessons functionality.
+                    </p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
+                    <img class="img-responsive" src="img/lessons.png" alt="">
                 </div>
             </div>
 
@@ -165,27 +185,123 @@
     </div>
     <!-- /.content-section-a -->
 
-	<a  name="contact"></a>
+    <!--Dashboard-->
+    <a  name="demo"></a>
+    <div class="banner demo">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section_header">Live Demo</h2>
+                </div>
+
+                <div class="col-lg-12">
+                    <h3>You can try out the live demo of the Citizen Reporter application on the emulator now!</h3>
+                    <iframe src="https://appetize.io/embed/4fp4jquzk4rb0cm8gv319k5a9w?device=iphone&orientation=portrait&scale=75" height="600px" width="300px" scrolling="no" frameborder="0"></iframe>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+    <!--use cases-->
+    <a  name="use_cases"></a>
     <div class="banner">
 
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-6">
-                    <h2>Connect to Start Bootstrap:</h2>
+                <div class="col-lg-12">
+                    <h2 class="section_header">Use Cases</h2>
                 </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
+                <div class="col-lg-12">
+                    <div class="col-sm-3 use_case">
+                        <h3>StarReports</h3>
+                        <a href="" target="_blank"><img src="img/starreports.png"></a>
+                        <br/>
+                        StarReports is used by the journalists and citizen reporters in Kenya
+                    </div>
+                    <div class="col-sm-3 use_case">
+                        <h3>ListeningPost</h3>
+                        <a href="" target="_blank"><img src="img/lp.png"></a>
+                        <br/>
+                        ListeningPost has been deployed in South Africa
+                    </div>
+                    <div class="col-sm-3 use_case">
+                        <h3>TIMBY</h3>
+                        <a href="" target="_blank"><img src="img/timby.png"></a>
+                        <br/>
+                        TIMBY helps activists in Liberia to securely report on environment abuse by powerful people
+                    </div>
+                    <div class="col-sm-3 use_case">
+                        <h3>ZIWAPHI</h3>
+                        <a href="" target="_blank"><img src="img/ziwaphi.png"></a>
+                        <br/>
+                        ZIWAPHI is used by a South African newsroom of the same name for media collection
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+
+    <!--Dashboard-->
+    <a  name="dashboard"></a>
+    <div class="banner dashboard">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section_header">Dashboard</h2>
+                </div>
+                <div class="col-lg-8">
+                    <img src="img/dashboard.png">
+                </div>
+                <div class="col-lg-4">
+                    CitizenReporter also includes an editorial dashboard that is built on top of the familiar WordPress content management interface.
+                    <br />
+                    With it you can:
+                    <ul>
+                        <li>Receive and manage content submitted through the app</li>
+                        <li>View and communicate to the journalists</li>
+                        <li>Create and manage assignments</li>
+                        <li>Publish lessons</li>
+
                     </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+	<a  name="partners"></a>
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section_header">Partners</h2>
+                </div>
+                <div class="col-lg-12">
+                        <div class="col-sm-4 partner-image">
+                            <a href="http://codeforafrica.org" target="_blank"><img src="img/c4a.png" style="height:100px !important;margin-right:30px"></a>
+                        </div>
+                        <div class="col-sm-4 partner-image">
+                            <a href="http://africannewschallenge.org/" target="_blank"><img src="img/anic.png" style="height:100px;margin-right:30px"></a>
+                        </div>
+                        <div class="col-sm-4 partner-image">
+                            <a href="http://icfj.org" target="_blank"><img src="img/icfj_logo.gif"  style="height:100px;margin-right:30px"></a>
+                        </div>
                 </div>
             </div>
 
@@ -202,22 +318,24 @@
                 <div class="col-lg-12">
                     <ul class="list-inline">
                         <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
                             <a href="#about">About</a>
                         </li>
-                        <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#services">Services</a>
+                            <a href="#features">Features</a>
                         </li>
-                        <li class="footer-menu-divider">&sdot;</li>
+
                         <li>
-                            <a href="#contact">Contact</a>
+                            <a href="#use_cases">Use Cases</a>
+                        </li>
+
+                        <li>
+                            <a href="#dashboard">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Partners</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                    <p class="copyright text-muted small">CizitenReporter is an Open Source project by CodeForAfrica</p>
                 </div>
             </div>
         </div>

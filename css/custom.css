@@ -1,0 +1,39 @@
+.section_header {
+    color: #6B6B6B;
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 30px 0 !important;
+}
+.partner-image{
+    text-align: center;
+}
+.use_case{
+    color: #4e4e4e;
+    text-align: center;
+}
+.use_case h3{
+    display: none;
+}
+
+.use_case img{
+    height:120px;
+    margin-bottom:10px;
+}
+
+.dashboard{
+    background-color: #f8f8f8;
+    color: #6B6B6B;
+    font-size:1.3em;
+}
+.dashboard img{
+    height: 300px;
+}
+.demo{
+    text-align: center;
+}
+.demo h3{
+    color: #6B6B6B;
+    font-size: 2em;
+}
